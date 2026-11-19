@@ -85,10 +85,27 @@ public class BaseClass {
 	                .until(ExpectedConditions.urlContains(fractionalUrl));
 	    }
 		
-	}
 	
+	
+//================= Navigation =================
 
+public static void navigateTo(String url) {
+    driver.navigate().to(url);
+}
 
+public static void navigateBack() {
+    driver.navigate().back();
+}
+
+public static void navigateForward() {
+    driver.navigate().forward();
+}
+
+public static void refresh() {
+    driver.navigate().refresh();
+}
+
+}
 
 
 
