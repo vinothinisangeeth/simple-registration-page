@@ -41,7 +41,8 @@ public void user_navigate_to_the_portal() {
 
 @Given("User enters the username as {string}")
 public void user_enters_the_username_as(String string) {
-	registerPage.userName(string);
+	String uniqueUsername=string+(System.currentTimeMillis()% 100000);
+	registerPage.userName(uniqueUsername);
     
 }
 
