@@ -11,8 +11,8 @@ Feature:user Registration validation demo
 	
 	Examples:
      | username |password   |confirmpassword|
-	|Firsttesting12|12345abc|12345abc|
-	|secondtesting13|cde5678|cde5678|
-	|thirdtesting14|0987ase|0987ase|
+	|Firsttesting123|12345abc|12345abc|
+	|secondtesting134|cde5678|cde5678|
+	|thirdtesting145|0987ase|0987ase|
 	
 	
